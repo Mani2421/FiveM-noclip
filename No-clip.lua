@@ -123,17 +123,3 @@ Citizen.CreateThread(function()
         end
     end
 end)
-
---==--==--==--
--- End Of Script
---==--==--==--
-
-RegisterNetEvent('np-admin:noclipsway')
-AddEventHandler('np-admin:noclipsway', function()
-noclipActive = true
-end)
-
-RegisterNetEvent('np-admin:nofc')
-AddEventHandler('np-admin:nofc', function()
-noclipActive = false
-end)
